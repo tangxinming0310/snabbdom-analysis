@@ -1,0 +1,21 @@
+{
+  "extends": [
+    "@commitlint/config-conventional"
+  ],
+  "rules": {
+    "scope-empty": [2, "never"],
+    "scope-enum": [2, "always", [
+      "commitlint",
+      "deps",
+      "docs",
+      "eslint",
+      "exports",
+      "format",
+      "git",
+      "package",
+      "relic",
+      "typescript",
+      "vscode"
+    ]]
+  }
+}
